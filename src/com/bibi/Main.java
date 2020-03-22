@@ -11,11 +11,15 @@ public class Main {
         float annualInterestRate = (float) readInput("Annual Interest Rate: ", 0, 30);
         byte periodYears = (byte) readInput("Period (Years): ", 1, 30);
 
-        double monthlyPayment = calculateMortgage(principal, annualInterestRate, periodYears);
+        printMortgage(principal, annualInterestRate, periodYears);
+    }
 
-        String mortgage = NumberFormat.getCurrencyInstance().format(monthlyPayment);
-
-        System.out.println("Mortgage: " + mortgage);
+    public static void printMortgage(int principal, float annualInterestRate, byte periodYears) {
+        String monthlyPayment = calculateMortgage(principal, annualInterestRate, periodYears);
+        System.out.println("");
+        System.out.println("MORTGAGE");
+        System.out.println("--------");
+        System.out.println("Monthly Payment: " + monthlyPayment);
     }
 
     public static double readInput(String prompt, double min, double max) {
@@ -33,13 +37,15 @@ public class Main {
         return value;
     }
 
-    public static double calculateMortgage(
+    public static String calculateMortgage(
             int principal,
             float annualInterestRate,
             byte periodYears) {
 
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
+
+        String formattedRemainedAmount = "";
 
         float monthlyInterestRate = annualInterestRate / PERCENT / MONTHS_IN_YEAR;
         byte numberOfPayments =(byte)(periodYears * MONTHS_IN_YEAR);
@@ -48,6 +54,20 @@ public class Main {
                 *((monthlyInterestRate*(Math.pow((1 + monthlyInterestRate),numberOfPayments)))
                 /(Math.pow((1 + monthlyInterestRate),numberOfPayments) - 1));
 
-        return monthlyPayment;
+        String mortgage = NumberFormat.getCurrencyInstance().format(monthlyPayment);
+
+        for (int i = 1; i <= numberOfPayments; i++) {
+            double remainedAmount = principal
+                    * (Math.pow((1 + monthlyInterestRate), numberOfPayments) - Math.pow((1 + monthlyInterestRate), i))
+                    / (Math.pow((1 + monthlyInterestRate), numberOfPayments) - 1);
+            formattedRemainedAmount += NumberFormat.getCurrencyInstance().format(remainedAmount) + "\n";
+        }
+
+        String mortgageWithPaymentSchedule = mortgage
+                + "\n\nPAYMENT SCHEDULE\n"
+                + "----------------\n"
+                + formattedRemainedAmount;
+
+        return mortgageWithPaymentSchedule;
     }
 }
