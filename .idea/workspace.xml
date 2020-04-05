@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91069bed-bb3d-4d8b-9a5c-872aac50b909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MortgageCalculator/com/bibi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MortgageCalculator/com/bibi/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bibi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bibi/Main.java" afterDir="false" />
@@ -13,6 +14,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +36,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="extract.method.default.visibility" value="public" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.bibi.MortagageCalculator" />
+      <recent name="com.bibi.MortagageCalculate" />
+      <recent name="com.bibi.MortgageReport" />
+      <recent name="com.bibi.Console" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -61,33 +78,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1584897952347">
+    <state x="641" y="181" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586096131836">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1584897952347" />
-    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1584897952346">
+    <state x="641" y="181" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1586096131836" />
+    <state x="543" y="160" width="571" height="605" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586100012494">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1584897952346" />
-    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1584897952346">
+    <state x="543" y="160" width="571" height="605" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/67.27.1533.873@67.27.1533.873" timestamp="1586100012494" />
+    <state x="421" y="39" width="814" height="847" key="CommitChangelistDialog2" timestamp="1586086160057">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1584897952346" />
-    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1584897952346">
+    <state x="421" y="39" width="814" height="847" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1586086160057" />
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1586098098742">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1584897952346" />
-    <state x="489" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1584803965530">
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1586098098742" />
+    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1586098098742">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="489" y="290" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1584803965530" />
-    <state x="608" y="305" width="524" height="481" key="extract.method.dialog" timestamp="1584897896857">
+    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1586098098742" />
+    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1586098098741">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="608" y="305" width="524" height="481" key="extract.method.dialog/67.27.1533.873@67.27.1533.873" timestamp="1584897896857" />
-    <state x="497" y="208" key="run.anything.popup" timestamp="1584898020880">
+    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1586098098741" />
+    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1586098098742">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1584898020880" />
+    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1586098098742" />
+    <state x="640" y="399" width="387" height="126" key="ReplaceDuplicatesPrompt" timestamp="1586101531319">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="640" y="399" width="387" height="126" key="ReplaceDuplicatesPrompt/67.27.1533.873@67.27.1533.873" timestamp="1586101531319" />
+    <state x="489" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1585323396515">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="489" y="290" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1585323396515" />
+    <state x="601" y="382" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586095648894">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="601" y="382" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1533.873@67.27.1533.873" timestamp="1586095648894" />
+    <state x="831" y="227" width="568" height="500" key="extract.method.dialog" timestamp="1586101527393">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="831" y="227" width="568" height="500" key="extract.method.dialog/67.27.1533.873@67.27.1533.873" timestamp="1586101527393" />
+    <state x="664" y="44" width="598" height="762" key="refactoring.ChangeSignatureDialog" timestamp="1586097974656">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="664" y="44" width="598" height="762" key="refactoring.ChangeSignatureDialog/67.27.1533.873@67.27.1533.873" timestamp="1586097974656" />
+    <state x="497" y="208" key="run.anything.popup" timestamp="1586109349420">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="497" y="208" key="run.anything.popup/67.27.1533.873@67.27.1533.873" timestamp="1586109349420" />
   </component>
 </project>
