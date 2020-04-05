@@ -5,9 +5,9 @@ import java.text.NumberFormat;
 public class MortgageReport {
 
     private final NumberFormat currency;
-    private MortagageCalculator calculator;
+    private MortgageCalculator calculator;
 
-    public MortgageReport(MortagageCalculator calculator) {
+    public MortgageReport(MortgageCalculator calculator) {
         this.calculator = calculator;
         currency = NumberFormat.getCurrencyInstance();
     }

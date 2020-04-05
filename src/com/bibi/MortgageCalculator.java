@@ -2,7 +2,7 @@ package com.bibi;
 
 import java.text.NumberFormat;
 
-public class MortagageCalculator {
+public class MortgageCalculator {
 
     private final static byte MONTHS_IN_YEAR = 12;
     private final static byte PERCENT = 100;
@@ -10,7 +10,7 @@ public class MortagageCalculator {
     private float annualInterest;
     private byte years;
 
-    public MortagageCalculator(int principal, float annualInterest, byte years) {
+    public MortgageCalculator(int principal, float annualInterest, byte years) {
         this.principal = principal;
         this.annualInterest = annualInterest;
         this.years = years;
